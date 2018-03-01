@@ -10,7 +10,7 @@ public class MyService {
 	public void testMethod() {
 		lock.lock();
 		for(int i = 0; i < 5; i++) {
-			System.out.println("ThreadName=" + Thread.currentThread().getName() + ("" + (i+1)));
+			System.out.println("ThreadName=" + Thread.currentThread().getName() + (" " + (i+1)));
 		}
 		lock.unlock();
 	}
