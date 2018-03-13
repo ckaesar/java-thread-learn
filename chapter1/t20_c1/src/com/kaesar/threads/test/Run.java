@@ -1,5 +1,10 @@
 package com.kaesar.threads.test;
 
+/**
+ * 优先级具有随机性：也就是优先级较高的线程不一定每次都先执行完
+ * @author chengkai
+ *
+ */
 public class Run {
 
 	public static void main(String[] args) {

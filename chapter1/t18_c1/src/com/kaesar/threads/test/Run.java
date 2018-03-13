@@ -1,5 +1,10 @@
 package com.kaesar.threads.test;
 
+/**
+ * 线程优先级的继承特性：线程的优先级具有继承性，比如A线程启动B线程，则B线程的优先级与A是一样的
+ * @author chengkai
+ *
+ */
 public class Run {
 
 	public static void main(String[] args) {

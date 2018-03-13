@@ -1,5 +1,10 @@
 package com.kaesar.threads.test;
 
+/**
+ * 实例变量共享，但会产生“非线程安全”问题
+ * @author chengkai
+ *
+ */
 public class MyThread extends Thread {
 
 	private int count = 5;

@@ -1,5 +1,10 @@
 package com.kaesar.threads.test;
 
+/**
+ * 实例变量不共享
+ * @author chengkai
+ *
+ */
 public class MyThread extends Thread {
 
 	private int count = 5;

@@ -1,5 +1,10 @@
 package com.kaesar.threads.test;
 
+/**
+ * interrupted()方法：测试当前线程是否已经中断，当前线程是指运行this.interrupted()方法的线程
+ * @author chengkai
+ *
+ */
 public class Run {
 
 	public static void main(String[] args) {

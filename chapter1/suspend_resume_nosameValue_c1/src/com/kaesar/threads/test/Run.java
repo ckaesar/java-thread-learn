@@ -1,5 +1,10 @@
 package com.kaesar.threads.test;
 
+/**
+ * suspend与resume的缺点：不同步
+ * @author chengkai
+ *
+ */
 public class Run {
 
 	public static void main(String[] args) throws InterruptedException {

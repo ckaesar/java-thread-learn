@@ -1,5 +1,10 @@
 package com.kaesar.threads.test;
 
+/**
+ * currentThread()方法：可以返回代码段正在被哪个线程调用的信息
+ * @author chengkai
+ *
+ */
 public class MyThread extends Thread {
  
 	public MyThread() {

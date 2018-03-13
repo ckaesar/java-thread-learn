@@ -1,5 +1,10 @@
 package com.kaesar.threads.test;
 
+/**
+ * 执行start()方法的顺序不代表线程启动的顺序
+ * @author chengkai
+ *
+ */
 public class Test {
 	
 	public static void main(String[] args) {
