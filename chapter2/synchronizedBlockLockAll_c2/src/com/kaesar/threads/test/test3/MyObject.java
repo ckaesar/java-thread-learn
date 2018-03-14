@@ -1,5 +1,10 @@
 package com.kaesar.threads.test.test3;
 
+/**
+ * 验证：当其他线程执行x对象方法里面的synchronized(this)代码块时也呈现同步效果
+ * @author chengkai
+ *
+ */
 public class MyObject {
 
 	public void speedPrintString() {

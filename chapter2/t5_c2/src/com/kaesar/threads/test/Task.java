@@ -1,5 +1,10 @@
 package com.kaesar.threads.test;
 
+/**
+ * synchronized关键字声明方法的弊端：
+ * @author chengkai
+ *
+ */
 public class Task {
 
 	private String getData1;

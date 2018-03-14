@@ -10,10 +10,10 @@ public class ObjectService {
 	public void serviceMethod() {
 		try {
 			synchronized(this) {
-				System.out.println("beginTime=" + System.currentTimeMillis());
+				System.out.println("ThreadName=" + Thread.currentThread().getName() + " beginTime=" + System.currentTimeMillis());
 				Thread.sleep(2000);
-				System.out.println("endTime=" + System.currentTimeMillis());
-			}
+				System.out.println("ThreadName=" + Thread.currentThread().getName() + " endTime=" + System.currentTimeMillis());
+			} 
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

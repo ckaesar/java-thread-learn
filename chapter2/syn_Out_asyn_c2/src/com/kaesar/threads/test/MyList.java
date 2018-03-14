@@ -3,6 +3,11 @@ package com.kaesar.threads.test;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 验证多个线程调用同一个方法时随机的
+ * @author chengkai
+ *
+ */
 public class MyList {
 
 	private List list = new ArrayList();

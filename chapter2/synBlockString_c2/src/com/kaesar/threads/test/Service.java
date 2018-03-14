@@ -1,5 +1,17 @@
 package com.kaesar.threads.test;
 
+/**
+ * 锁非this对象：synchronized(非this)
+ * 优点：如果一个类中有很多个synchronized方法，这是虽然能实现同步，但会受到阻塞，所以影响运行效率；但如果使用同步代码块
+ * 锁非this对象，则synchronized(非this)代码块中的程序与同步方法是异步的，不与其他锁this对象争抢this锁，则可大大
+ * 提高运行效率。
+ * 
+ * 使用synchronized(非this对象x)同步代码块格式进行同步操作时，如果不是同一个对象监视器，运行的结果就是异步调用了，就会
+ * 交叉运行
+ * 
+ * @author chengkai
+ *
+ */
 public class Service {
 
 	private String usernameParam;

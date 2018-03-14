@@ -1,5 +1,10 @@
 package com.kaesar.threads.test.test1;
 
+/**
+ * 验证：当多个线程同时执行synchronized(x){}同步代码块时呈同步效果
+ * @author chengkai
+ *
+ */
 public class Service {
 
 	public void testMethod1(MyObject object) {

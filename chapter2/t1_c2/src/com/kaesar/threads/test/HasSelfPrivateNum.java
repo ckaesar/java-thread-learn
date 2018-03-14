@@ -1,5 +1,10 @@
 package com.kaesar.threads.test;
 
+/**
+ * 实现方法内部声明一个变量时，是不存在“非线程安全”问题的
+ * @author chengkai
+ *
+ */
 public class HasSelfPrivateNum {
 
 	public void addI(String username) {

@@ -1,5 +1,10 @@
 package com.kaesar.threads.test;
 
+/**
+ * 验证同步synchronized(this)代码块是锁定当前对象的
+ * @author chengkai
+ *
+ */
 public class Task {
 	
 	synchronized public void otherMethod() { //验证同步synchronized(this)代码块是锁定当前对象的

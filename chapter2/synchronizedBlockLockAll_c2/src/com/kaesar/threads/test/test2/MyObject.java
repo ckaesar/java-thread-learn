@@ -1,5 +1,10 @@
 package com.kaesar.threads.test.test2;
 
+/**
+ * 验证：当其他线程执行x对象中synchronized同步方法时呈同步效果
+ * @author chengkai
+ *
+ */
 public class MyObject {
 
 	synchronized public void speedPrintString() {

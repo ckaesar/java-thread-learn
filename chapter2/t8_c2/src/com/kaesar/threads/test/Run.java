@@ -6,7 +6,7 @@ public class Run {
 		Task task = new Task();
 		MyThread1 thread1 = new MyThread1(task);
 		thread1.start();
-		Thread.sleep(100);
+		Thread.sleep(10);
 		
 		MyThread2 thread2 = new MyThread2(task);
 		thread2.start();
